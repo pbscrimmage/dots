@@ -15,8 +15,9 @@ syntax on           " syntax and search highlighting
 set hlsearch
 
 set t_Co=256
-colorscheme molokai
+colorscheme seti
 set number
+set list
 
 filetype plugin on
 filetype plugin indent on
@@ -30,8 +31,8 @@ set incsearch		" do incremental searching
 
 
 set expandtab "tabs = spaces
-set tabstop=4 "4 of them
-set shiftwidth=4 "get rid of double indent
+set tabstop=2 "2 of them
+set shiftwidth=2 "get rid of double indent
 
 set nrformats=
 set history=200
